@@ -1,0 +1,166 @@
+
+body{
+  background: linear-gradient(48deg, #05cfb3b5, transparent);
+}
+.div1{
+  position: fixed;
+  left: 837px;
+  width: 455px;
+  height: 417px;
+  background-color: white;
+  box-shadow: 0 0 20px black;
+  min-height: 27em;
+  min-width: 30em;
+  visibility: visible;
+  top: 50%;
+  transition: transform 0.4s, top 0.4s;
+  transform: translate(-12%,-50%) scale(1);
+  border-radius: 10px;
+}
+.div2{
+  font-size: 9px;
+  position: fixed;
+  left: 58%;
+  top: 91%;
+  width: 556px;
+  height: 515px;
+  background-color: white;
+  box-shadow: 0 0 20px black;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+  transform: translate(-120%,-99%) scale(0.1);
+}
+  .btn2{
+    background-color: rgb(8, 183, 96);
+    position: relative;
+    left: 17%;
+    top: 50px;
+    color: white;
+    font-size: 20PX;
+    font-family: unset;
+  }
+ .div1 button{
+    width: 60%;
+    height: 54px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .div1 input:hover{
+         box-shadow:0 0 20PX CYAN;
+  }
+.open1{
+    visibility: visible;
+    transform: translate(-12%,-99%) scale(1);
+}
+.open2{
+     visibility: hidden;
+     transform: translate(120%,-31%) scale(0.1);
+}
+
+ h1{
+    position: relative;
+    top: 13px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    color: blue;
+}
+.div1 input{
+    width: 83%;
+    padding: 12px 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 22px;
+    position: relative;
+    left: 8%;
+    height: 48px;
+}
+.btn1{
+    background: darkblue;
+    padding: 4px 19px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 58%;
+    position: relative;
+    left: 18%;
+    top: 13px;
+    color: white;
+    font-size: 26px;
+   }
+  a{
+    position: relative;
+    top: 64px;
+    right: 29%;
+   }
+  .div1 hr{
+    position: relative;
+    top: 51px;
+   }
+   h3{
+    margin-left: 10%;
+    margin-bottom: 0;
+    font-size: 15;
+   }
+/****************************Partie 2******************************/
+.div2 input{
+  width: 79%;
+  height: 7%;
+  margin-left: 10%;
+  font-family: initial;
+  margin-top: 2px;
+  font-size: 19;
+}
+p{
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.div2 button{
+  width: 62%;
+  color: white;
+  height: 8%;
+  font-size: 23px;
+  position: relative;
+  top: 21px;
+  left: 16%;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.title{
+  position: fixed;
+right: 48%;
+top: 19%;
+width: 50%;
+height: auto;
+}
+.title h1{
+  color: rgb(71 213 213 / 98%);
+  position: relative;
+  right: 123px;
+  letter-spacing: 17px;
+  font-size: 48px;
+}
+.title p{
+  color: blue;
+font-style: italic;
+font-family: revert;
+font-size: 23;
+}
+img{
+  width: 429px;
+  margin: 0;
+  position: relative;
+  top: -63px;
+}
+div ul{
+  position: relative;
+  top: -80px;
+  left: 36px;
+}
+
+
+
+
+
+

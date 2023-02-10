@@ -1,0 +1,109 @@
+ body{
+        position: fixed;
+        padding: auto;
+        margin: auto;
+}
+.all{
+    position: relative;
+    left: 198%;
+    top: 13cm;
+    color: blue;
+}
+.tous{
+    width: 261%;
+    height: auto;
+    position: absolute;
+    top: 101px;
+    margin: 0;
+    left: 85%;
+}
+select{
+    width: 24%;
+    height: 40px;
+    font-size: 19px;
+    margin-left: 43px;
+    color: black;
+}
+.tous input{
+    width: 26%;
+    height: 26px;
+    font-size: 16px;
+    margin-left: 43px;
+    color: black;
+}
+.find{
+    color: #261515;
+    position: relative;
+    left: 27%;
+    border-radius: 11px;
+}
+.find:hover{
+    background-color: rgb(129, 129, 236);
+    color: white;
+    cursor: pointer;
+}
+.style{
+    overflow: auto;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 12px;
+    font-family: monospace;
+    min-width: 74em;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+    text-align: center;
+    left: 181%;
+    position: absolute;
+    transform: translate(-39%, 0);
+    margin: 6px;
+    z-index: -3;
+    margin-bottom: 16vh;
+    top: 20em;
+}
+
+.style thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+.style th,
+.style td{
+    padding: 12px 15px;
+    color: black;
+}
+.style tbody tr{
+    border-bottom:1px solid black ;
+}
+.style tbody tr:nth-of-type(even){
+    background-color: white;
+}
+.style tbody tr:last-of-type{
+    border-bottom: 2px black;
+}
+.sup{
+    color: black;
+    margin: 0px;
+    width: 92px;
+    height: 30px;
+    cursor: pointer;
+}
+.mod{
+    color: black;
+    margin: 0px;
+    width: 92px;
+    height: 30px;
+    cursor: pointer;
+}
+.mod:hover{
+    background-color: blue;
+    color: white;
+}
+.sup:hover{
+    background-color: red;
+    color: white;
+}
+.message{
+    position: relative;
+    top: 8em;
+    left: 167%;
+    
+}

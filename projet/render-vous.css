@@ -1,0 +1,46 @@
+.block{
+    background-color: beige;
+    position: absolute;
+    left: 311px;
+    top: 143px;
+    width: 820px;
+    height: 438px;
+    box-shadow:0 0 20px rgb(0 0 0 / 15%);
+}
+.block2{
+     background-color: rgb(122, 122, 243);
+     width: 100%;
+     height: 40px;
+    
+}
+h3{
+    position: relative;
+    left: 243px;
+    top: 9px;
+    color: white;
+}
+.block label{
+    margin-left: 60px;
+}
+.block input{
+    width: 378px;
+    height: 44px;
+    margin-left: 192px;
+    margin-top: 40px;
+    font-size: 22px;
+    padding: 20px;
+    font-family: cursive;
+}
+.block input[type="submit"]{
+    width: 132px;
+    height: 39px;
+    font-size: 20px;
+    padding: 0;
+    margin-left: 309px;
+    cursor: pointer;
+    margin-top: 20px;         
+}
+.block input[type="submit"]:hover{
+    background-color: rgb(73, 73, 224); 
+    color: white;
+}
